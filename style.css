@@ -55,6 +55,7 @@
     background: #A19D9D;
     border: 1px solid #707070;
     margin-right: 20px;
+    cursor: pointer;
   }
 
 
@@ -139,8 +140,10 @@
       width: 572px;
       height: 250px;
       display: flex;
-      border: 1px solid #707070;
       margin-right: 20px;
+  }
+  .recommend-first:hover{
+      box-shadow: rgb(143, 143, 143) 1px 1px 6px;
   }
   .recommend-first:last-child{
         margin: 0;
